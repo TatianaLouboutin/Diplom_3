@@ -1,6 +1,1 @@
-{
-  "tests/test_base_functions.py::TestBaseFunction": true,
-  "tests/test_orders_list.py::TestOrdersList": true,
-  "tests/test_personal_area.py::TestPersonalArea": true,
-  "tests/test_restore_pass.py::TestRestorePassword": true
-}
+{}

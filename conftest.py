@@ -1,18 +1,10 @@
 import pytest
 from selenium import webdriver
 import settings
+import allure
+from pages.base_functions import BaseFunctions
 
-#@pytest.fixture(scope='function')
-#def driver():
-#    driver = webdriver.Firefox()
-#    driver = webdriver.Chrome()
-#    driver.get(settings.URL)
-#    driver.maximize_window()
-#    yield driver
-#    driver.quit()
-
-
-
+@allure.step("Создание кроссбраузерного драйвера для Chrome и Firefox")
 @pytest.fixture(params=['firefox', 'chrome'])
 def driver(request):
     driver = None
@@ -24,3 +16,5 @@ def driver(request):
 
     yield driver
     driver.quit()
+
+

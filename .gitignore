@@ -1,10 +1,9 @@
-
 Lib
 Scripts
 pyvenv.cfg
 .idea
 .pytest_cache
 __pycache__
-locators\__pycache__
-pages\__pycache__
-tests\__pycache__
+locators/__pycache__
+pages/__pycache__
+tests/__pycache__

@@ -34,7 +34,7 @@ class Locators:
 
     CREATE_ORDER = (By.XPATH, ".//p[text()='идентификатор заказа']")                         # Хедер 'идентификатор заказа'
 
-    LIST_ORDER_FIRST_ORDER = (By.XPATH, ".//div[@class = 'OrderFeed_contentBox__3-tWb']/ul/li[1]/a")  # Первый заказ в списке заказов
+    LIST_ORDER_FIRST_ORDER = (By.XPATH, ".//ul/li[1]/a[@class='OrderHistory_link__1iNby']")  # Первый заказ в списке заказов
     LIST_ORDER_FIRST_ORDER_NUMBER = (By.XPATH, ".//div[@class = 'OrderFeed_contentBox__3-tWb']/ul/li[1]/a/div/p[@class='text text_type_digits-default']") # Номер первого заказа в Ленте заказов
     LIST_ORDER_MODAL_WINDOW_TEXT = (By.XPATH, ".//p[text()='Cостав']")                       # Текст модального окна
     ORDER_HISTORY_LAST_ORDER = (By.XPATH, ".//li[@class='OrderHistory_listItem__2x95r mb-6'][last()]/a/div/p") # Последний заказ в истории заказов

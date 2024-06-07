@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3611e5f-62b2-4bcb-b414-44efad2b18ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Diplom___3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Diplom___3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/locators/locators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_base_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_base_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_orders_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_orders_list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +26,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hRS05iEYHjj6eTt8SrE9Jy4eUo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -30,14 +38,111 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python tests.Python tests for test_base_functions.TestBaseFunction.test_click_ingridient.executor": "Run",
+    "Python tests.Python tests for test_base_functions.TestBaseFunction.test_close_ingridient.executor": "Run",
+    "Python tests.Python tests for test_base_functions.TestBaseFunction.test_transit_to_order_list.executor": "Run",
+    "Python tests.Python tests for test_base_functions.TestBaseFunction.test_transit_to_сonstructor.executor": "Run",
+    "Python tests.Python tests for test_orders_list.TestOrdersList.test_order_from_order_history_in_orders_list.executor": "Run",
+    "Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_add_ingridient.executor": "Run",
+    "Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_click_ingridient.executor": "Run",
+    "Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_close_ingridient.executor": "Run",
+    "Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_order_list.executor": "Run",
+    "Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_сonstructor.executor": "Run",
+    "Python tests.Python tests in test_base_functions.py.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/taylo/OneDrive/Рабочий стол/Автоматизатор/Diplom_3",
+    "last_opened_file_path": "C:/Users/taylo/OneDrive/Рабочий стол/Автоматизатор/pythonWebinar-Final-Diplom-master",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
 }]]></component>
+  <component name="RunManager" selected="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_сonstructor">
+    <configuration name="Python tests for tests.test_base_functions.TestBaseFunction.test_add_ingridient" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom___3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_functions.TestBaseFunction.test_add_ingridient&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_base_functions.TestBaseFunction.test_click_ingridient" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom___3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_functions.TestBaseFunction.test_click_ingridient&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_base_functions.TestBaseFunction.test_close_ingridient" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom___3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_functions.TestBaseFunction.test_close_ingridient&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_сonstructor" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom___3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_functions.TestBaseFunction.test_transit_to_сonstructor&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_order_list" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Diplom___3" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test_base_functions.TestBaseFunction.test_transit_to_order_list&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_сonstructor" />
+        <item itemvalue="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_add_ingridient" />
+        <item itemvalue="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_close_ingridient" />
+        <item itemvalue="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_transit_to_order_list" />
+        <item itemvalue="Python tests.Python tests for tests.test_base_functions.TestBaseFunction.test_click_ingridient" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -55,5 +160,20 @@
       <updated>1717555170601</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conftest.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_base_functions.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

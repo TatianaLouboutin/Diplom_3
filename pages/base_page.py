@@ -23,9 +23,11 @@ class BasePage:
         WebDriverWait(self.driver, 5).until(expected_conditions.invisibility_of_element(locator))
 
 
+
     @allure.step('Открываем страницу')
     def open_page(self, url):
         self.driver.get(url)
+
 
     @allure.step('Перетаскиваем ингридиент в заказ')
     def drag_drop(self, locator1, locator2,  locator3):
@@ -34,17 +36,14 @@ class BasePage:
         drag_and_drop(self.driver, source, target)
         self.wait_and_find(locator3)
 
+
     @allure.step('Возвращаем текст найденного элемента')
     def return_text_element(self, locator):
         self.wait_and_find(locator)
-        return self.driver.find_element(*locator).text
+        text = self.driver.find_element(*locator).text
+        return text
 
 
-
-    @allure.step('Скроллим страницу до локатора')
-    def scroll_to_locator(self, locator):
-        element = self.wait_and_find(locator)
-        self.driver.execute_script("arguments[0].scrollIntoView();", element)
 
     @allure.step('Нажимаем элемент')
     def click_element(self, locator):

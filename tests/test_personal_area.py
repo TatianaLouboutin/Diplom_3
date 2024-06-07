@@ -7,7 +7,7 @@ class TestPersonalArea:
     @allure.description("Переход по клику на ЛК")
     def test_transit_personal_area(self, driver):
         personal_area = PersonalArea(driver)
-        personal_area.transit_personal_area(driver)
+        personal_area.transit_personal_area()
         assert driver.current_url == settings.URL + settings.LOGIN
 
 
@@ -15,7 +15,7 @@ class TestPersonalArea:
     @allure.description("Переход по клику История заказов в ЛК")
     def test_transit_order_history(self, driver):
         personal_area = PersonalArea(driver)
-        personal_area.transit_order_history(driver)
+        personal_area.transit_order_history()
         assert driver.current_url == settings.URL + settings.ORDER_HISTORY
 
 
@@ -23,7 +23,7 @@ class TestPersonalArea:
     @allure.description("Переход по клику Выход в ЛК")
     def test_logout(self, driver):
         personal_area = PersonalArea(driver)
-        personal_area.logout(driver)
+        personal_area.logout()
         assert driver.current_url == settings.URL + settings.LOGIN
 
 

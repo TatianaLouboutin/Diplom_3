@@ -17,6 +17,8 @@
   "tests/test_orders_list.py::TestOrdersList::test_find_all_orders[firefox]",
   "tests/test_orders_list.py::TestOrdersList::test_find_today_orders[chrome]",
   "tests/test_orders_list.py::TestOrdersList::test_find_today_orders[firefox]",
+  "tests/test_orders_list.py::TestOrdersList::test_numbers_orders_are_the_same[chrome]",
+  "tests/test_orders_list.py::TestOrdersList::test_numbers_orders_are_the_same[firefox]",
   "tests/test_orders_list.py::TestOrdersList::test_order_from_order_history_in_orders_list[chrome]",
   "tests/test_orders_list.py::TestOrdersList::test_order_from_order_history_in_orders_list[firefox]",
   "tests/test_orders_list.py::TestOrdersList::test_order_in_work[chrome]",
